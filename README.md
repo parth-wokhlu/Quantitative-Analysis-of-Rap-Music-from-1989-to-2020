@@ -1,4 +1,4 @@
-# Quantitative Analysis of Rap from 1989 to 2020
+# Quantitative Analysis of Rap Music from 1989 to 2020
 
 by Parth Wokhlu and Mihir Nakra 
 
