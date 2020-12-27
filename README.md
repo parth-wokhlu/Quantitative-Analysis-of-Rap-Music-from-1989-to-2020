@@ -18,9 +18,9 @@ The first step was collecting the names of all the popular rap songs of the past
 
 ## Limitations/Flaws
 
-III. Results
+# III. Results
 
 
-IV. Conclusion
+# IV. Conclusion and Implications 
 
 
