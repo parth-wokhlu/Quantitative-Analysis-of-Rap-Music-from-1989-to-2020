@@ -16,6 +16,8 @@ The first step was collecting the names of all the popular rap songs of the past
 
 ## Neural Network
 
+## Implementing the Code
+
 ## Limitations/Flaws
 
 # III. Results
