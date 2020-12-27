@@ -20,7 +20,7 @@ At first, the idea of a neural network seemed like a far off possibility. It see
 
 From what we understood, the method we should attack this problem with was to classify a song based on the lyrics using a linear support vector machine. This method had a fast computational time and could provide accurate results without thousands and thousands of training inputs. Essentially, a linear support vector machine is made to mathematically determine a hyperplane which will allow it to classify data points. A hyperplane is, to put it simply, a line of best fit for the data with a margin outside of it. The calculations done by the machine create a hyperplane with the largest margin possible so that data can be classified as accurately as possible. 
 
-So now we have the hard part: how do we turn words into data points for the machine to use? The method we used was implementing a count vectorizer, which creates a matrix using the words given. 
+So now we have the hard part: how do we turn words into data points for the machine to use? The method we used was implementing a count vectorizer, which creates a matrix using the words given. An example of this is below:
 
 ![Example of count vectorizer matrix](https://kavita-ganesan.com/wp-content/uploads/how-hashingvectorizer-works.png)
 
