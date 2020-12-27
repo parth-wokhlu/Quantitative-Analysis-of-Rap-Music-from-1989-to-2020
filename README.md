@@ -9,11 +9,14 @@ After spending the past year delving into every era of rap music, the intricacie
 
 # II. Methodology
 
+All the code for this project is open sourced (not all of it is written completely by us, so please give the original authors their due credit).
+
 ## Data Collection
-The first step was collecting the massive amounts of data needed to follow through on our goal. 
+The first step was collecting the names of all the popular rap songs of the past 30 years. Because Billboard had not started a "Hot 100" List for Rap in its earlier eras, we began by 
 
 ## Neural Network
 
+## Limitations/Flaws
 
 III. Results
 
