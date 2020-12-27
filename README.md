@@ -30,7 +30,7 @@ To determine the accuracy of our training data, we split it up so that 70% of it
 
 After determining our model was fairly accurate, we could use it to predict the themes of all the songs we had. Each time we wanted to predict if a song had themes of racial injustice or systemic racism in it, we could give that model the count vectorized and tfidf transformed song lyric, and using the already determined hyperplane, it would identify where the song lyrics would lie on the graph in relation to the hyperplane. Based on that it would tell us if a certain song contained the ideas of racial injustice or not. 
 
-The credit for providing us with the design of this model goes to [Shanglun Wang](https://www.toptal.com/machine-learning/nlp-tutorial-text-classification), who made another linear support vector machine to classify wine reviews. He was kind enough to open source the code and explain it thoroughly, which allowed us to understand and adapt it to our needs.
+The credit for providing us with the design of this model goes to [Shanglun Wang](https://www.toptal.com/machine-learning/nlp-tutorial-text-classification), who made another linear support vector machine to classify wine reviews. He was kind enough to open source the code and explain it thoroughly, which allowed us to understand it and adapt it to our needs.
 
 
 ## Implementing the Code
