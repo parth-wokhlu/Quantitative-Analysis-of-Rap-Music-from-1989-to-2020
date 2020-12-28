@@ -11,7 +11,7 @@ After spending the past year delving into every era of rap music, the intricacie
 All the code for this project is open sourced (not all of it is written completely by us, so please give the original authors their due credit).
 
 ## Data Collection
-The first step was collecting the names of all the popular rap songs of the past 30 years. Because Billboard had not started a "Hot 100" List for rap in its earlier eras, we began by taking songs from the weekly charts that have been updated since March of 1989. We used [Allen Guo’s Python API](https://github.com/guoguo12/billboard-charts) for retrieving the song and artist names and saved them to a json file, sorting them by the year that they were on the charts. The full list of the yearly top rap songs can be found in the file named “rapData.json”. 
+The first step was collecting the names of all the popular rap songs of the past 30 years. Because Billboard had not started a "Hot 100" List for Rap in its earlier eras, we began by taking songs from the weekly charts that have been updated since March of 1989. We used [Allen Guo’s Python API](https://github.com/guoguo12/billboard-charts) for retrieving the song and artist names and saved them to a json file, sorting them by the year that they were on the charts. The full list of the yearly top rap songs can be found in the file named “rapData.json”. 
 After that testing data was compiled, we then had to go through the most gruesome process: collecting training data. Using Google and our own playlists, we came up with 75 songs stretching across every era that were good examples of rap music that discussed systemic inequalities. Then, we repeated the same process for 75 songs that discussed any content besides anti-black oppression. The full list of training data can be found in the “master song database.csv” file. We switched around the training data for different trials in order to make sure there was consistency within the results. 
 
 ## Neural Network
@@ -38,7 +38,7 @@ Now that we had an accurate model and the required testing and training data, th
 From there, the process was standard. We created a for loop to stop when the year the AI was analyzing was equal to 2021 and established a new count of songs the computer deemed as about racism, and the total number of songs. At the end of processing the songs for the respective year, the computer returned the percentage of songs it thought discussed racism, and we put it into our data. This cycle repeated until we had quantified the content of rap song for every year of every era (see more details about results in the next section). 
 
 ## Limitations/Flaws
-The first limitation of this study is the most obvious: we’re two high schoolers that conducted this “experiment”, there’s a relatively moderate margin of error.
+The first limitation of this study is the most obvious: we’re two high schoolers that conducted this “experiment” within winter break, there’s a relatively moderate margin of error.
 
 Second, this project isn’t reflective of every rap song created, only the most popular, as we pulled the songs from the Billboard charts. Hypothetically, there could be the same amount of songs about systemic racism being created, but people are simply listening to other topics more. This distinction is especially key when realizing that during the early 2000s, hip-hops audience grew massively to non-black people with artists like Ms. Lauryn Hill and Eminem. 
 
@@ -47,10 +47,10 @@ Third, institutional racism is a system that influences every aspect of the live
 
 # III. Results
 <p align="center">
-  <img src="https://github.com/fatlips222/Quantiative-Analysis-of-Rap-Music-from-1989-to-2020/blob/main/Graphs/Evolution%20of%20Rap%20(Graph%201).png">
+  <img src="https://github.com/fatlips222/Quantiative-Analysis-of-Rap-Music-from-1989-to-2020/blob/main/Results/Evolution%20of%20Rap%20(Graph%201).png">
 </p>
 <p align="center">
-  <img src="https://github.com/fatlips222/Quantiative-Analysis-of-Rap-Music-from-1989-to-2020/blob/main/Graphs/Evolution%20of%20Rap%20(Avg.%20Trendline%2C%20Graph%202).png">
+  <img src="https://github.com/fatlips222/Quantiative-Analysis-of-Rap-Music-from-1989-to-2020/blob/main/Results/Evolution%20of%20Rap%20(Avg.%20Trendline%2C%20Graph%202).png">
 </p>
 
 Although the numbers aren’t perfectly consistent, they all tell a very similar story. In the early 90’s, the themes of systemic racism occupied around 35% of rap music, and now, these politically driven songs only consist of about 10% of rap music, dropping even lower in the years before. To see our data in its raw format, check out the open sourced Excel file titled “Rap Analysis Results.” 
