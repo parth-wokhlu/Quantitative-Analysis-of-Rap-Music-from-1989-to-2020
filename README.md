@@ -47,6 +47,13 @@ Third, institutional racism is a system that influences every aspect of the live
 
 
 # III. Results
+<p align="center">
+  <img src="https://github.com/fatlips222/Quantiative-Analysis-of-Rap-Music-from-1989-to-2020/blob/main/Graphs/Evolution%20of%20Rap%20(Graph%201).png">
+</p>
+<p align="center">
+  <img src="https://github.com/fatlips222/Quantiative-Analysis-of-Rap-Music-from-1989-to-2020/blob/main/Graphs/Evolution%20of%20Rap%20(Avg.%20Trendline%2C%20Graph%202).png">
+</p>
+
 Although the numbers aren’t perfectly consistent, they all tell a very similar story. In the early 90’s, the themes of systemic racism occupied around 35% of rap music, and now, these politically driven songs only consist of about 10% of rap music, dropping even lower in the years before. To see our data in its raw format, check out the open sourced Excel file titled “Rap Analysis Results.” 
 
 Some notable events that correspond with the peaks and dips in the graphs consist of: Nas’s *Illmatic* in 1994, the deaths of Tupac Shakur and Biggie Smalls in 1996 and 1997 respectively, *The Miseducation of Lauryn Hill*’s Album of the Year in 1998, Eminem’s Hollywood debut in 2002, Kanye West’s *808s & Heartbreak* in 2008, and the critically acclaimed *To Pimp a Butterfly* by Kendrick Lamar. 
