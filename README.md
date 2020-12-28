@@ -1,10 +1,10 @@
-# Quantitative Analysis of Rap from 1989 to 2020
+# Quantitative Analysis of Rap Music from 1989 to 2020
 
 by Parth Wokhlu and Mihir Nakra 
 
 # I. Introduction
 
-After spending the past year delving into every era of rap music, the intricacies of the genre and its change became extremely intriguing to us. We were interested in quantifying how rap music has evolved over the past 30 years, specifically in regards to its origin, and how that evolution correlates to African-American culture. Specifically, an article, titled "How Polticial Hip-hop Has Evolved Over Time" by Dan Runcie, explains that the style of music was created as a way to express the oppression experienced by underrepresented African-Americans. Since then, there's been a wide consesnsus that the themes of systemic racism, police brutality, and generational poverty have fallen out of rap music, so we decided to use deep learning to find a correlation between changes in the content of hip hop and racial injustices.
+After spending the past year delving into every era of rap music, the intricacies of the genre and its change became extremely intriguing to us. We were interested in quantifying how rap music has evolved over the past 30 years, specifically in regards to its origin, and how that evolution correlates to African-American culture. Specifically, an article, titled ["How Polticial Hip-hop Has Evolved Over Time"](https://trapital.co/2019/08/28/how-political-hip-hop-has-evolved-over-time/) by Dan Runcie, explains that the style of music was created as a way to express the oppression experienced by underrepresented African-Americans. Since then, there's been a wide consesnsus that the themes of systemic racism, police brutality, and generational poverty have fallen out of rap music, so we decided to use deep learning to find a correlation between changes in the content of hip hop and racial injustices.
 
 
 # II. Methodology
@@ -47,8 +47,29 @@ Third, institutional racism is a system that influences every aspect of the live
 
 
 # III. Results
+Although the numbers aren’t perfectly consistent, they all tell a very similar story. In the early 90’s, the themes of systemic racism occupied around 35% of rap music, and now, these politically driven songs only consist of about 10% of rap music, dropping even lower in the years before. To see our data in its raw format, check out the open sourced Excel file titled “Rap Analysis Results.” 
+
+Some notable events that correspond with the peaks and dips in the graphs consist of: Nas’s *Illmatic* in 1994, the deaths of Tupac Shakur and Biggie Smalls in 1996 and 1997 respectively, *The Miseducation of Lauryn Hill*’s Album of the Year in 1998, Eminem’s Hollywood debut in 2002, Kanye West’s *808s & Heartbreak* in 2008, and the critically acclaimed *To Pimp a Butterfly* by Kendrick Lamar. 
 
 
 # IV. Conclusion and Implications 
+Utilizing a natural language processing neural network model, we conclude that the themes of systemic racial inequality in hip-hop have become increasingly insignificant over the past 30 years. This is consistent with how African-American culture as a whole has evolved, with decreasing poverty levels.
+
+<p align="center">
+  <img src="https://www.whitehouse.gov/wp-content/uploads/2019/09/Figure-1.-Poverty-Rates-by-Race-and-Ethnicity-1966-2018-820x490.png">
+</p>
+
+However, this doesn’t ignore the fact that systemic racism is still very much alive and is a large part of the reason why African-americans are still disproportionately  incarcerated more and more. Thus, we urge artists of all genres to continue to make music advocating for those that are underrepresented and held down by age-old policy. Moreover, we encourage fans of hip-hop to listen to more of those heavy songs that describe the feelings most non-black folk will never experience (“Sing About Me, I’m Dying of Thirst” by Kendrick Lamar is a personal favorite of ours). 
+
+<p align="center">
+  <img src="https://www.pewresearch.org/wp-content/uploads/2014/07/incarceration1.jpg">
+</p>
+
+Greg Whitt and Keith Reid-Cleveland wrote an excellent [article](https://uproxx.com/music/hip-hop-social-justice-intersection/) about how hip-hop and its stars have consistently been a key projector of anti-racist activism, spawning anthems to rally around and placing the oppression felt by African-Americans into the mainstream spotlight. Rap has been revolutionary in the past, and we hope it can revolutionize the future as well.
+
+
+
+
+
 
 
