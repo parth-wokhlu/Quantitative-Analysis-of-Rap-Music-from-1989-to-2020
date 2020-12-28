@@ -3,6 +3,7 @@
 by Parth Wokhlu and Mihir Nakra 
 
 Parth Wokhlu: parth.wokhlu.843@gmail.com
+
 Mihir Nakra: nakramihir@gmail.com
 
 # I. Introduction
