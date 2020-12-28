@@ -47,8 +47,24 @@ Third, institutional racism is a system that influences every aspect of the live
 
 
 # III. Results
+Although the numbers aren’t perfectly consistent, they all tell a very similar story. In the early 90’s, the themes of systemic racism occupied around 35% of rap music, and now, these politically driven songs only consist of about 10% of rap music, dropping even lower in the years before. To see our data in its raw format, check out the open sourced Excel file titled “Rap Analysis Results.” 
+
+Some notable events that correspond with the peaks and dips in the graphs consist of: Nas’s *Illmatic* in 1994, the deaths of Tupac Shakur and Biggie Smalls in 1996 and 1997 respectively, *The Miseducation of Lauryn Hill*’s Album of the Year in 1998, Eminem’s Hollywood debut in 2002, Kanye West’s *808s & Heartbreak* in 2008, and the critically acclaimed *To Pimp a Butterfly* by Kendrick Lamar. 
 
 
 # IV. Conclusion and Implications 
+Utilizing a natural language processing neural network model, we conclude that the themes of systemic racial inequality in hip-hop have become increasingly insignificant over the past 30 years. This is consistent with how African-American culture as a whole has evolved, with decreasing poverty and incarceration levels.
+
+![](https://www.whitehouse.gov/wp-content/uploads/2019/09/Figure-1.-Poverty-Rates-by-Race-and-Ethnicity-1966-2018-820x490.png)
+![](https://www.pewresearch.org/wp-content/uploads/2020/05/FT_20.05.05_ImprisonmentRates_1.png)
+
+However, this doesn’t ignore the fact that systemic racism is still very much alive and is a large part of the reason why African-americans are still disproportionately poor and incarcerated. Thus, we urge artists of all genres to continue to make music advocating for those that are underrepresented and held down by age-old policy. Moreover, we encourage fans of hip-hop to listen to more of those heavy songs that describe the feelings most non-black folk will never experience (“Sing About Me, I’m Dying of Thirst” by Kendrick Lamar is a personal favorite of ours). 
+
+Greg Whitt and Keith Reid-Cleveland wrote an excellent [article](https://uproxx.com/music/hip-hop-social-justice-intersection/) about how hip-hop and its stars have consistently been a key projector of anti-racist activism, spawning anthems to rally around and placing the oppression felt by African-Americans into the mainstream spotlight. Rap has been revolutionary in the past, and we hope it can revolutionize the future as well.
+
+
+
+
+
 
 
