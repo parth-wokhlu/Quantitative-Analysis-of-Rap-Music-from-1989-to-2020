@@ -63,13 +63,13 @@ Some notable events that correspond with the peaks and dips in the graphs consis
 
 
 # IV. Conclusion and Implications 
-Utilizing a natural language processing neural network model, we conclude that the explicit themes of systemic racial inequality in hip-hop have become increasingly insignificant over the past 30 years. This is consistent with how African-American culture as a whole has evolved, with decreasing poverty levels.
-
+Utilizing a natural language processing neural network model, we conclude that the explicit themes of systemic racial inequality in hip-hop have become increasingly insignificant over the past 30 years. This is consistent with how black culture as a whole has evolved, with decreasing unemployment levels for African Americans. Although overall the unemployment rate has decreased, the general trend matches up with our data, with spikes in unemployment coinciding with increase popular songs concerning racial inequality. For example, the spike in the early 1990s and 2010s correlates with a spike in songs about racial injustice.
+ 
 <p align="center">
-  <img src="https://www.whitehouse.gov/wp-content/uploads/2019/09/Figure-1.-Poverty-Rates-by-Race-and-Ethnicity-1966-2018-820x490.png">
+  <img src="https://i.imgur.com/p7XZQTa.png">
 </p>
 
-However, this doesn’t ignore the fact that systemic racism is still very much alive and is a large part of the reason why African-americans are still disproportionately  incarcerated more and more. Thus, we urge artists of all genres to continue to make music advocating for those that are underrepresented and held down by age-old policy. Moreover, we encourage fans of hip-hop to listen to more of those heavy songs that describe the feelings most non-black folk will never experience (“Sing About Me, I’m Dying of Thirst” by Kendrick Lamar is a personal favorite of ours). 
+This doesn’t ignore the fact that systemic racism is still very much alive and is a large part of the reason why African-americans are still disproportionately incarcerated more and more. Thus, we urge artists of all genres to continue to make music advocating for those that are underrepresented and held down by age-old policy. Moreover, we encourage fans of hip-hop to listen to more of those heavy songs that describe the feelings most non-black folk will never experience (“Sing About Me, I’m Dying of Thirst” by Kendrick Lamar is a personal favorite of ours). 
 
 <p align="center">
   <img src="https://www.pewresearch.org/wp-content/uploads/2014/07/incarceration1.jpg">
