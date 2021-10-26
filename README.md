@@ -10,7 +10,7 @@ Mihir Nakra: nakramihir@gmail.com
 
 After spending the past year delving into every era of rap music, the intricacies of the genre and its change became extremely intriguing to us. We were interested in quantifying how rap music has evolved over the past 30 years, specifically in regards to its origin, and how that evolution correlates to trends in black culture. Specifically, an article, titled ["How Polticial Hip-hop Has Evolved Over Time"](https://trapital.co/2019/08/28/how-political-hip-hop-has-evolved-over-time/) by Dan Runcie, explains that the style of music had become a way to express the effects of oppression experienced by black people. Since then, there's been a wide consensus that the themes of systemic racism, police brutality, and generational poverty have fallen out of rap music, so we decided to use machine learning to see the truth of these claims.
 
-*Note: As non-black people we're aware that we're guests in the culture of hip-hop, and in no means are trying to push a certain narrative on non-conscious music (we absolutely love trap artists like Playboi Carti and Future). This was simply a project done out of interest in a genre of music that we love. 
+Note: As non-black people we're aware that we're guests in the culture of hip-hop, and in no means are trying to push a certain narrative on non-conscious music (we absolutely love trap artists like Playboi Carti and Future). This was simply a project done out of interest in a genre of music that we love. 
 
 # II. Methodology
 
