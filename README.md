@@ -6,9 +6,11 @@ Parth Wokhlu: parth.wokhlu.843@gmail.com
 
 Mihir Nakra: nakramihir@gmail.com
 
-# I. Introduction
+# I. Introduction/Purpose
 
-After spending the past year delving into every era of rap music, the intricacies of the genre and its change became extremely intriguing to us. We were interested in quantifying how rap music has evolved over the past 30 years, specifically in regards to its origin, and how that evolution correlates to black culture. Specifically, an article, titled ["How Polticial Hip-hop Has Evolved Over Time"](https://trapital.co/2019/08/28/how-political-hip-hop-has-evolved-over-time/) by Dan Runcie, explains that the style of music had become a way to express the oppression experienced by black people. Since then, there's been a wide consensus that the themes of systemic racism, police brutality, and generational poverty have fallen out of rap music, so we decided to use deep learning to find a correlation between changes in the content of hip hop and how that reflects changes in the prosperity of African-Americans.
+After spending the past year delving into every era of rap music, the intricacies of the genre and its change became extremely intriguing to us. We were interested in quantifying how rap music has evolved over the past 30 years, specifically in regards to its origin, and how that evolution correlates to trends in black culture. Specifically, an article, titled ["How Polticial Hip-hop Has Evolved Over Time"](https://trapital.co/2019/08/28/how-political-hip-hop-has-evolved-over-time/) by Dan Runcie, explains that the style of music had become a way to express the effects of oppression experienced by black people. Since then, there's been a wide consensus that the themes of systemic racism, police brutality, and generational poverty have fallen out of rap music, so we decided to use machine learning to see the truth of these claims.
+
+*Note: As non-black people we're aware that we're guests in the culture of hip-hop, and in no means are trying to push a certain narrative on non-conscious music (we absolutely love trap artists like Playboi Carti and Future). This was simply a project done out of interest in a genre of music that we love. 
 
 # II. Methodology
 
@@ -27,7 +29,7 @@ So now we have the hard part: how do we turn words into data points for the mach
 
 ![Example of count vectorizer matrix](https://kavita-ganesan.com/wp-content/uploads/how-hashingvectorizer-works.png)
 
-From the matrix, we used something called a tfidf transformer to allow the machine to get a better understanding of what words matter. A tfidf transformer highlights the words that are unique to certain songs and helps to reduce the influence of a word like “the,” which appears likely in all songs numerous times. After applying these calculations to our text, we gave the training data to the model and allowed it to determine the hyperplane. To do all of this, we used the python sklearn library.
+From the matrix, we used something called a tfidf transformer to allow the machine to get a better understanding of what words matter. A tfidf transformer highlights the words that are unique to certain songs and helps to reduce the influence of a word like “the,” which appears in all songs numerous times. After applying these calculations to our text, we gave the training data to the model and allowed it to determine the hyperplane. To do all of this, we used the python sklearn library.
 
 To determine the accuracy of our training data, we split it up so that 70% of it would be used to train and then 30% of it would be used to test. We would then train the model with that 70% and tell it to predict the themes of the song of the remaining 30% of the songs. Then we would compare the data it predicted to what we know it should’ve predicted. We tested it many times, and it had an average accuracy of about 85%. 
 
@@ -46,8 +48,7 @@ The first limitation of this study is the most obvious: we’re two high schoole
 
 Second, this project isn’t reflective of every rap song created, only the most popular, as we pulled the songs from the Billboard charts. Hypothetically, there could be the same amount of songs about systemic racism being created, but people are simply listening to other topics more. This distinction is especially key when realizing that during the early 2000s, hip-hops audience grew massively to non-black people with artists like Ms. Lauryn Hill and Eminem. 
 
-Third, institutional racism is a system that influences every aspect of the lives of the people who it affects. For example, a song about drug dealing and robbing a bank is still directly linked to policies like the War on Drugs and redlining, but our AI may not pick it up. Every instance of black success is inherently political in a state built on white supremacy.
-
+Third, institutional racism is a system that influences every aspect of the lives of the people who it affects. For example, a song about drug dealing is still directly linked to policies like the War on Drugs and redlining, but our AI won't pick up that correlation. Every instance of black success is inherently political in a state built on white supremacy and tearing black people down.
 
 # III. Results
 <p align="center">
@@ -57,25 +58,25 @@ Third, institutional racism is a system that influences every aspect of the live
   <img src="https://github.com/fatlips222/Quantiative-Analysis-of-Rap-Music-from-1989-to-2020/blob/main/Results/Evolution%20of%20Rap%20(Avg.%20Trendline%2C%20Graph%202).png">
 </p>
 
-Although the numbers aren’t perfectly consistent, they all tell a very similar story. In the early 90’s, the themes of systemic racism occupied around 35% of rap music, and now, these politically driven songs only consist of about 10% of rap music, dropping even lower in the years before. To see our data in its raw format, check out the open sourced Excel file titled “Rap Analysis Results.” 
+Although the numbers aren’t perfectly consistent, they all tell a very similar story. In the early 90’s, the themes of systemic racism occupied around 35% of rap music, and now, these explicitly politically driven songs only consist of about 10% of rap music, dropping even lower in the years before. To see our data in its raw format, check out the open sourced Excel file titled “Rap Analysis Results.” 
 
 Some notable events that correspond with the peaks and dips in the graphs consist of: Nas’s *Illmatic* in 1994, the deaths of Tupac Shakur and Biggie Smalls in 1996 and 1997 respectively, *The Miseducation of Lauryn Hill*’s Album of the Year in 1998, Eminem’s Hollywood debut in 2002, Kanye West’s *808s & Heartbreak* in 2008, and the critically acclaimed *To Pimp a Butterfly* by Kendrick Lamar. 
 
 
 # IV. Conclusion and Implications 
-Utilizing a natural language processing neural network model, we conclude that the explicit themes of systemic racial inequality in hip-hop have become increasingly insignificant over the past 30 years. This is consistent with how black culture as a whole has evolved, with decreasing unemployment levels for African Americans. Although overall the unemployment rate has decreased, the general trend matches up with our data, with spikes in unemployment coinciding with increase popular songs concerning racial inequality. For example, the spike in the early 1990s and 2010s correlates with a spike in songs about racial injustice.
+Utilizing a natural language processing neural network model, we conclude that the explicit themes of systemic racial inequality in hip-hop music have become increasingly insignificant over the past 30 years. This is consistent with how black culture as a whole has evolved, with improved social standings and decreasing unemployment levels for African Americans. Although the unemployment rate has decreased overall, spikes in unemployment coincide with an increase in popular songs concerning racial inequality. For example, the unemployment spike in the early 1990s and 2010s correlates with a spike in songs about racial injustice.
  
 <p align="center">
   <img src="https://i.imgur.com/p7XZQTa.png">
 </p>
 
-This doesn’t ignore the fact that systemic racism is still very much alive and is a large part of the reason as to why African-americans are still disproportionately incarcerated. Although songs about racism are not as popular, it doesn't mean that there are any less of these songs. In fact, considering that the rap industry has grown a lot over the years, it is likely that there are even more of these types of songs. The issue is that the big record labels who have the resources to make a song popular, dismiss songs dealing with racial injustice in exchange for something that would appeal to all kinds of fans. Thus, we encourage record labels to push songs to allow artists to create the music they want to, like songs that tackle racial injustice. The Rolling Stone wrote a [great article](https://www.rollingstone.com/music/music-features/music-industry-racism-1010001/) about how record labels have influenced rap music to make it more "appealing". Moreover, we encourage fans of hip-hop to listen to more of those heavy songs that describe the feelings most non-black folk will never experience (“Sing About Me, I’m Dying of Thirst” by Kendrick Lamar is a personal favorite of ours). This is not meant to discourage artists from creating songs that make them happy, but simply a call to record labels to end the censorship of their artists.
+This doesn’t ignore the fact that systemic racism is still very much alive and is the reason to why African-Americans are still disproportionately incarcerated. Although songs about racism are not as popular, it doesn't mean that there are any less of these songs. In fact, considering that the rap industry has grown tremendously over the years, it is extremely likely that there are even more of these types of songs. The issue is that big record labels who have the resources to brand and market an artist dismiss songs dealing with racial injustice in exchange for something that would appeal to fans of all races. The Rolling Stone wrote a [great article](https://www.rollingstone.com/music/music-features/music-industry-racism-1010001/) about how record labels have influenced rap music to make it more "appealing", essentially gentrifying it. We encourage fellow non-black fans of hip-hop to listen to more of those heavy songs that describe the feelings non-black folk will never experience (“Sing About Me, I’m Dying of Thirst” by Kendrick Lamar is a personal favorite of ours). 
 
 <p align="center">
   <img src="https://www.pewresearch.org/wp-content/uploads/2014/07/incarceration1.jpg">
 </p>
 
-Greg Whitt and Keith Reid-Cleveland wrote an excellent [article](https://uproxx.com/music/hip-hop-social-justice-intersection/) about how hip-hop and its stars have consistently been a key projector of anti-racist activism, spawning anthems to rally around and placing the oppression felt by African-Americans into the mainstream spotlight. Rap has been revolutionary in sparking activism in the past, and we hope it can revolutionize the future as well.
+Greg Whitt and Keith Reid-Cleveland wrote an excellent [article](https://uproxx.com/music/hip-hop-social-justice-intersection/) about how hip-hop and its stars have consistently been a key projector of anti-racist activism, spawning anthems to rally around and placing the oppression felt by African-Americans into the mainstream. Rap has been revolutionary in the past, and we hope it can revolutionize the future as well.
 
 
 
