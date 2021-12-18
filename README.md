@@ -10,7 +10,7 @@ Mihir Nakra: nakramihir@gmail.com
 
 After spending the past year delving into every era of rap music, the intricacies of the genre and its change became extremely intriguing to us. We were interested in quantifying how rap music has evolved over the past 30 years, specifically in regards to its origin, and how that evolution correlates to trends in black culture. Specifically, an article, titled ["How Polticial Hip-hop Has Evolved Over Time"](https://trapital.co/2019/08/28/how-political-hip-hop-has-evolved-over-time/) by Dan Runcie, explains that the style of music had become a way to express the effects of oppression experienced by black people. Since then, there's been a wide consensus that the themes of systemic racism, police brutality, and generational poverty have fallen out of rap music, so we decided to use machine learning to see the truth of these claims.
 
-Note: As non-black people we're aware that we're guests in the culture of hip-hop, and in no means are trying to push a certain narrative on non-conscious music (we absolutely love trap artists like Playboi Carti and Future). This was simply a project done out of interest in a genre of music that we love. 
+Note: As non-black people we're aware that we're guests in the culture of hip-hop, and in no means are trying to push a certain narrative on non-conscious music (we absolutely love trap artists like Playboi Carti and Future). This was simply a project done out of interest in a genre of music that we love. If we've used any ignorant phrases or remarks, please don't hesistate to email us and we'll take care of it immediately. 
 
 # II. Methodology
 
@@ -18,6 +18,7 @@ All the code for this project is open sourced (not all of it is written complete
 
 ## Data Collection
 The first step was collecting the names of all the popular rap songs of the past 30 years. Because Billboard had not started a "Hot 100" List for Rap in its earlier eras, we began by taking songs from the weekly charts that have been updated since March of 1989. We used [Allen Guo’s Python API](https://github.com/guoguo12/billboard-charts) for retrieving the song and artist names and saved them to a json file, sorting them by the year that they were on the charts. The full list of the yearly top rap songs can be found in the file named “rapData.json”. 
+
 After that testing data was compiled, we then had to go through the most gruesome process: collecting training data. Using Google and our own playlists, we came up with 75 songs stretching across every era that were good examples of rap music that discussed systemic inequalities. Then, we repeated the same process for 75 songs that discussed any content besides anti-black oppression. The full list of training data can be found in the “master song database.csv” file. We switched around the training data for different trials in order to make sure there was consistency within the results. 
 
 ## Neural Network
