@@ -25,6 +25,8 @@ At first, the idea of a neural network seemed interesting, but we didn’t know 
 
 After researching, we decided to classify songs based on their lyrics by utilizing a linear support vector machine. A linear support vector machine mathematically determines a hyperplane and classifies data points accordingly. A hyperplane is, put simply, a line of best fit that acts as a decision boundary to segregate and classify the data on the two sides of it. The calculations are done by the machine to create a hyperplane with the largest margin possible between the two sections so that data can be classified as accurately as possible.
 
+![hyperplane example](https://www.researchgate.net/profile/Ismail-Calikusu/publication/338698374/figure/fig3/AS:849434183233538@1579532299528/Optimal-Hyperplane-and-Margin-of-SVM.png)
+
 Then came the hard part; how do we turn words into data points for the machine to use? We decided to use a count vectorizer, which creates a matrix of numerical data using the words given to it. An example of this is below:
 
 ![Example of count vectorizer matrix](https://kavita-ganesan.com/wp-content/uploads/how-hashingvectorizer-works.png)
